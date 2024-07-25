@@ -1,0 +1,115 @@
+/* General styles */
+.container {
+    position: relative; /* Set container as the positioning context */
+    width: 75%;
+    background: #fff;
+    padding: 15px;
+    margin: 10px auto; /* Center horizontally */
+    border-radius: 1rem;
+    box-shadow: 0 .3rem .6rem #FF8C8C;
+    overflow: hidden; /* Clear floats */
+    margin-bottom: 3rem;
+}
+
+.container .image-container {
+    float: left; /* Float the image to the left */
+    margin-right: 1rem;
+}
+
+.container .image-container img {
+    width: 200px;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.container .content {
+    overflow: hidden; /* Clear floats */
+}
+
+.container .content h3,
+.container .content h4 {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    margin-bottom: 0.5rem; /* Add some space between headings */
+    color: #222;
+}
+
+.container .content h3 {
+    font-size: 2rem;
+}
+
+.container .cancel-btn {
+    position: absolute; /* Position the button absolutely */
+    bottom: 20px; /* Position from the bottom */
+    right: 20px; /* Position from the right */
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    color: #FF8C8C;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.container .cancel-btn:hover {
+    background-color: #FF8C8C;
+    color: white;
+}
+
+.container p {
+    color: grey;
+    font-size: 1.3rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    padding: 0.5rem;
+    color: #222;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Popup styles */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    background: #fff;
+    padding: 15px;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem .6rem #FF8C8C;
+    overflow: hidden; /* Clear floats */
+    z-index: 9999; /* Ensure it appears above other content */
+}
+
+.popup-content {
+    text-align: center;
+}
+
+.popup-buttons {
+    margin-top: 20px;
+}
+
+.popup-buttons button {
+    height: 50px;
+   width: 100px;
+   border-radius: 10px;
+   border: none;
+   color: #FF8C8C;
+   cursor: pointer;
+   font-weight: 700;
+   font-size: 15px;
+   margin-top:15px;
+}
+
+
+
+.popup-buttons button:hover {
+    background-color: #FF8C8C;
+   color: white;
+}

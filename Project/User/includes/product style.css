@@ -1,0 +1,58 @@
+/* ---------------- Categories ---------------- */
+#product{
+    height: 100vh;
+}
+
+.title{
+    text-align:center;
+    font-size:3rem;
+    padding:0.5rem;
+    color:#222;
+}
+
+.categories .row
+{
+   display: flex;
+   align-items: center;
+   justify-content:center;
+   flex-wrap: wrap; 
+   padding-bottom: 20px;
+}
+.categories .column
+{
+    width: 31%;
+    background:#fff;
+    height: 30%;
+    padding:15px;
+    margin:10px;
+    border-radius:1rem;
+    box-shadow:0 .3rem .6rem #FF8C8C;
+    text-align: center;
+}
+.categories .column:hover 
+{
+    transition:.5s ease;
+    transform:translateY(-.5rem);
+}
+.categories .column img 
+{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.categories .column h2
+{
+    padding: 0;
+    color:black;
+    font-size:22px;
+    font-weight: 700;
+}
+
+.categories .column p 
+{
+    color:gray;
+    font-size: 1rem;
+    font-weight: 500;
+    padding:.5rem 0;
+}
